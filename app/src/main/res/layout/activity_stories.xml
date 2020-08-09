@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/back"
     android:layout_height="match_parent"
     tools:context=".stories">
 
@@ -10,7 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
         <androidx.appcompat.widget.Toolbar
             android:visibility="gone"
             android:id="@+id/toolbar"
@@ -33,10 +40,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/alegreya"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
             android:text="Articles "
             android:textSize="40dp"
-            android:paddingLeft="20dp"
-            android:textStyle="bold"/>
+             />
 
 
 
