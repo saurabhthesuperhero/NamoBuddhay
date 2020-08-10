@@ -26,6 +26,14 @@
             android:layout_height="wrap_content"
             android:onClick="fullstorietest"
             android:text="fullstory" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="homego"
+            android:text="go home" />
 
     </RelativeLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

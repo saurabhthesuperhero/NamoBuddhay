@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+<RelativeLayout
+    android:background="@drawable/homeback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_marginBottom="4dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical">
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:layout_margin="7dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardElevation="14dp"
+                android:elevation="8dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card_b"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="117dp"
+                                android:layout_height="176dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginVertical="50pt"
+                                android:background="#D3D3D3"
+                                android:elevation="4dp"
+                                app:cardElevation="8dp"
+                                android:rotation="8" >
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#D3D3D3"
+
+                                    ></FrameLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <ImageView
+                                android:layout_width="117dp"
+                                android:layout_height="166dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:elevation="8dp"
+
+                                android:src="@color/colorPrimary" />
+
+
+
+
+                        </FrameLayout>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="50dp"
+                            android:text="Monday, 10 August"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/alegreya"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="148dp"
+                            android:text="Good \nMorning,\nSaurabh Jadhav"
+                            android:textSize="28dp"
+                            android:fontFamily="@font/alegreya"
+
+                            />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/button_curvegrey"
+                            android:layout_marginLeft="-30dp"
+                            android:text="Open Story"
+                            android:textSize="12dp"
+                            android:elevation="4dp"
+                            android:fontFamily="@font/alegreya"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="20dp"></Button>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="23dp"
+            android:layout_marginHorizontal="10dp"
+            app:cardCornerRadius="10dp"
+            android:elevation="8dp"
+
+            app:cardElevation="8dp"
+            android:layout_height="117dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    >
+                    <Button
+                        android:layout_width="2dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="74dp"
+                        android:layout_gravity="center"
+                        android:background="#000000"
+                        >
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Today's Quote"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/alegreya"
+                        android:textSize="13dp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="Think before what u can do what u r capable
+of ok and something."
+                        android:fontFamily="@font/alegreya"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-Buddha"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/alegreya"
+                        android:textStyle="bold"
+                        >
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="23dp"
+            android:layout_marginHorizontal="10dp"
+            app:cardCornerRadius="10dp"
+            android:elevation="8dp"
+
+            app:cardElevation="8dp"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_yellow"
+                />
+            <LinearLayout
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    >
+                    <Button
+                        android:layout_width="2dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="155dp"
+                        android:layout_gravity="center"
+                        android:background="#000000"
+                        >
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Today's Dhammapada"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/alegreya"
+                        android:textSize="13dp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="Pali:"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/alegreya"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="ksjdlllllllllllkljdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+                        android:fontFamily="@font/alegreya"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        ></TextView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="English:"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/alegreya"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="ksjdlllllllllllkljdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+                        android:fontFamily="@font/alegreya"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        ></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginHorizontal="20dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alice"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+            android:text="Buddhism: Basic Beliefs "
+            android:textAlignment="center"
+            android:gravity="center_horizontal"></TextView>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+<!--buddhism basics-->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="60dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+
+
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_yellow"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:text="How did Buddhism begin?"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="60dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+
+
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_yellow"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:text="Three Universal Truths"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="60dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+
+
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_yellow"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:text="Four Noble Truths"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="60dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+
+
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_yellow"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:text="The Eightfold Path"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </androidx.cardview.widget.CardView>
+
+
+
+<!--what is meditation-->
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="20dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:text="What is meditation?"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            app:cardElevation="10dp"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="10dp"
+
+
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_yellow"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alice"
+                    android:textSize="16dp"
+                    android:padding="6dp"
+                    android:layout_gravity="center"
+                    android:text="Meditation isn’t about becoming a different person, a new person, or even a better person. It’s about training in awareness and getting a healthy sense of perspective. You’re not trying to turn off your thoughts or feelings. You’re learning to observe them without judgment. And eventually, you may start to better understand them as well."
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

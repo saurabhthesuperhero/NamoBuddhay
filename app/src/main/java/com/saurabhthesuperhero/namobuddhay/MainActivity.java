@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent  intent=new Intent(getApplicationContext(),fullstory.class);
         startActivity(intent);
     }
+
+    public void homego(View view) {
+        Intent  intent=new Intent(getApplicationContext(),Home.class);
+        startActivity(intent);
+    }
 }
