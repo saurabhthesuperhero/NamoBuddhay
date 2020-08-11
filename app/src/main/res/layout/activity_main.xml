@@ -34,6 +34,14 @@
             android:layout_height="wrap_content"
             android:onClick="homego"
             android:text="go home" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="vandanago"
+            android:text="go vandana" />
 
     </RelativeLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

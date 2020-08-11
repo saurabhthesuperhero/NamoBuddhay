@@ -19,4 +19,19 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+<!--    toolbar-->
+    <style name="TextAppearance.MyApp.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+
+        <item name="fontFamily">@font/alegreya</item>
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="fontFamily">@font/alegreya</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">14dp</item>
+    </style>
 </resources>

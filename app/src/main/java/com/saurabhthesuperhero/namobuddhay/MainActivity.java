@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent  intent=new Intent(getApplicationContext(),Home.class);
         startActivity(intent);
     }
+
+    public void vandanago(View view) {
+        Intent  intent=new Intent(getApplicationContext(),Vandana_page.class);
+        startActivity(intent);
+    }
 }
