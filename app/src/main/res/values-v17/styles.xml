@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.MyApp.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+
+        <item name="fontFamily">@font/alice</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="fontFamily">@font/alice</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">28dp</item>
+    </style>
+</resources>
